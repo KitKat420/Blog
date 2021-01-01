@@ -48,6 +48,11 @@ h3 {
   padding-right: 30px;
 }
 
+.blog-post img {
+  height: 150px;
+  width: auto;
+}
+
 .other-post {
   width: 25%;
   float: right;
@@ -56,6 +61,12 @@ h3 {
 .author-box {
   padding-top: 20px;
   border-top: 1px solid #333;
+  display: flex;
+  align-items: center;
+}
+
+.author-box img {
+  margin-right: 15px;
 }
 
 .haiku-post {
